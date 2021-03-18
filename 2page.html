@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style1.css" />
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<style type="text/css">
+		#q{
+			background-color: #DCDCDC;
+		}
+		#q1{
+		 position:absolute;
+		 top: 70px;
+		 right: 460px;
+
+
+		}
+		#q2{
+			position: absolute;
+		 top: 140px;
+		 right: 180px;
+		}
+		.button-7 {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    padding: 15px;
+    color: #383d48;
+}
+.button-7 span {
+    display: block;
+    overflow: hidden;
+    max-width: 0;
+    opacity: 0;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    line-height: 1;
+    transition: .4s ease;
+}
+.button-7:after {
+    content: '\e886';
+    font-family: Linearicons-Free;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 22px;
+}
+.button-7:hover span {
+    max-width: 150px;
+    opacity: 1;
+    margin-right: 6px;
+}
+	</style>
+<body id="q">
+	<form>
+ <a class="button-7" href="javascript:history.back()" href="javascript:history.back()"><span>назад</span></a>
+</form>
+	<div id="q2"><iframe width="600" height="300" src="https://www.youtube.com/embed/8R1ubtHT5-Y?autoplay=1&amp;loop=1&amp;&amp;playlist=Video_ID"  allowfullscreen="" frameborder="0"></iframe></div>
+	<div id="q1"><img src="rolex-logo.png" width="100" ></div>
+	
+    <div class="container">
+        <div class="row">
+			<div class="col-md-5 mx-auto">
+			<div id="first">
+				<div class="myform form ">
+					 
+                 
+				</div>
+			</div>
+			  <div id="second">
+			      <div class="myform form ">
+                        <div class="logo mb-3">
+                           <div class="col-md-12 text-center">
+                              <h1 >Signup</h1>
+                           </div>
+                        </div>
+                        <form  method = "POST" action = "https://jsonplaceholder.typicode.com/posts">
+                           <div class="form-group">
+                              <label for="exampleInputEmail1">First Name</label>
+                              <input type="text"  name="firstname" class="form-control" id="firstname" aria-describedby="emailHelp" placeholder="Enter Firstname">
+                           </div>
+                           <div class="form-group">
+                              <label for="exampleInputEmail1">Last Name</label>
+                              <input type="text"  name="lastname" class="form-control" id="lastname" aria-describedby="emailHelp" placeholder="Enter Lastname">
+                           </div>
+                           <div class="form-group">
+                              <label for="exampleInputEmail1">Email address</label>
+                              <input type="email" name="email"  class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                           </div>
+                           <div class="form-group">
+                              <label for="exampleInputEmail1">Password</label>
+                              <input type="password" name="password" id="password"  class="form-control" aria-describedby="emailHelp" placeholder="Enter Password">
+                           </div>
+                           <div class="col-md-12 text-center mb-3">
+                              <button type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">Get Started For Free</button>
+                           </div>
+                           <div class="col-md-12 ">
+                              <div class="form-group">
+                                 <p class="text-center"><a href="#" id="signin">Already have an account?</a></p>
+                              </div>
+                           </div>
+                            </div>
+                        </form>
+                     </div>
+			</div>
+		</div>
+      </div>   
+  </div>
+         
+
+
+</body>
+</html>
